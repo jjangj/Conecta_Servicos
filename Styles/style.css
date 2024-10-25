@@ -1,0 +1,175 @@
+:root {
+  /* Variáveis de cor */
+  --primary-color: #3160e4;
+  --secondary-color: #ff6937;
+  --background-color: #f9f9f9;
+  --text-color: #333;
+  --gray-color: #777;
+
+  /* Variáveis de fontes */
+  --font-primary: 'Poppins', sans-serif;
+  --font-size-large: 26px;
+  --font-size-medium: 18px;
+  --font-size-small: 14px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: var(--font-primary);
+}
+
+html, body{
+height: 100%;
+}
+
+body {
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Estilos da seção de marketing */
+.mkt {
+  flex: 1;
+  background-color: var(--primary-color);
+  color: white;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mkt h4 {
+  font-size: 24px;
+  width: 464px;
+  margin: 8px 0;
+  text-align: center;
+}
+
+.mkt p {
+  font-size: 16px;
+  font-family: var(--gray-color);
+  text-align: center;
+  width: 464px;
+}
+
+.mkt img {
+  width: 60%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* Estilos do formulário de login */
+.form {
+  flex: 1;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: var(--primary-color);
+}
+.inputs label {
+  color: var(--text-color);
+  display: block;
+  text-align: left;
+  font-weight: 500;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.inputs input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.inputs{
+  width: 464px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+}
+
+#btn {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 464px;
+}
+
+.esqueceu__senha{
+  display: flex;
+  justify-content: right;
+  width: 464px;
+}
+
+.esqueceu {
+  color: var(--gray-color);
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 14px;
+  margin-bottom: 24px;
+  justify-content: end;
+}
+
+.cadastro{
+  color: var(--primary-color);
+  text-decoration: none;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.form a:hover {
+  text-decoration: underline;
+}
+
+.form p {
+  font-size: 16px;
+  margin-top: 10px;
+  color: #777;
+  font-size: 14px;
+  text-align: center;
+  margin-right: 8px;
+}
+
+.cadastro{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
